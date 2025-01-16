@@ -13,8 +13,13 @@
       text-align: center;
     }
   </style>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
+    <iframe class="absolute top-64 left-20" width="400" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media" 
+            src="https://open.spotify.com/embed/playlist/7CKg4LPgeHvM4gSSdbTnKx?utm_source=embedding_v1&autoplay=true">
+    </iframe>
+
   <div id="container">
     <div id="menu">
       <ul>
@@ -43,14 +48,13 @@
         <p>You can find me on social media: <a href="https://x.com/KyuNaytHZ">Twitter</a>, <a href="https://www.youtube.com/@kyunayt">Youtube</a>, <a href="https://quicknote.io/438f4510-45d8-11ef-a63d-8554d5ace958">Discord</a>. I like watching cartoons, playing tower defense games, and designing graphics.</p>
         <p>I kinda want friends too, maybe talk to me through my socials :)</p>
       </div>
-      <div id="right">
+      <div class="float-left w-180px ml-8 mb-2">
         <h2>Photos</h2>
-        <div class="photo-container">
-          <a href="#" class="photo-link"><img src="images/photo.jpg" alt="photo 1" class="photo" /></a>
-          <a href="#" class="photo-link"><img src="images/photo1.jpg" alt="photo 2" class="photo" /></a>
-          <a href="#" class="photo-link"><img src="images/photo3.png" alt="photo 3" class="photo" /></a>
-          <a href="#" class="photo-link"><img src="images/photo2.png" alt="photo 4" class="photo" /></a>
-          <br />
+        <div class="grid grid-cols-2 gap-2">
+            <img src="images/photo.jpg" alt="photo 1" class="w-auto" />
+            <img src="images/photo1.jpg" alt="photo 2" class="w-auto" />
+            <img src="images/photo3.png" alt="photo 3" class="w-auto" />
+            <img src="images/photo2.png" alt="photo 4" class="w-auto" />
         </div>
       </div>
       <div class="clear"></div>
